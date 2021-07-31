@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tes1"
+        android:layout_width="149dp"
+        android:scaleType="centerCrop"
+        android:layout_height="250dp"
+        android:contentDescription="@string/TESLA"
+        android:src="@drawable/tes2">TESLA</ImageView>
+
+    <ImageView
+        android:id="@+id/tes2"
+        android:layout_width="134dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tes1"
+        android:contentDescription="@string/TESLA"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2">TESLA</ImageView>
+
+    <ImageView
+        android:id="@+id/tes3"
+        android:layout_width="134dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/tes2"
+        android:contentDescription="@string/TESLA"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2">TESLA
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/tes2"
+        android:layout_marginStart="4dp"
+        android:layout_toRightOf="@id/tes1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2"
+        android:layout_marginLeft="5dp">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="NEXT"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </Button>
+
+
+</RelativeLayout>
+
+
+

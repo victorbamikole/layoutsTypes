@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="250dp"
+        android:src="@drawable/tes2"
+        android:scaleType="centerCrop">
+    </ImageView>
+
+    <ImageView
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tes2"
+        android:layout_width="134dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/TESLA"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2">TESLA</ImageView>
+
+    <ImageView
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="280dp"
+        android:id="@+id/tes3"
+        android:layout_width="134dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/TESLA"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2">TESLA</ImageView>
+
+    <ImageView
+        android:layout_marginTop="132dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tes4"
+        android:layout_width="wrap_content"
+        android:layout_height="117dp"
+        android:contentDescription="@string/TESLA"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tes2">TESLA</ImageView>
+
+</FrameLayout>
